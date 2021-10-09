@@ -7,3 +7,7 @@ int kthSmallest(int arr[], int l, int r, int k) {
         sort(arr,arr+n);
         return arr[k-1];
 }
+// fast method 
+int quickSelect(){
+        return 1;
+}
